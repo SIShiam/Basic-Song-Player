@@ -1,2 +1,0 @@
-Copy your song file (for example my-song.mp3) into this folder.
-Then open script.js and type the file name in the songFile line.
