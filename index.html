@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main id="player" class="player">
+    <h1 class="title">Now_playing</h1>
+    <p id="status" class="status">paused</p>
+
+    <div class="volume-track" aria-hidden="true">
+      <div id="volume-fill" class="volume-fill"></div>
+    </div>
+
+    <div class="controls">
+      <button id="play-btn" class="btn btn-main" aria-label="Play or pause">▶ Play</button>
+      <button id="vol-down" class="btn" aria-label="Volume down">Vol -</button>
+      <button id="vol-up" class="btn" aria-label="Volume up">Vol +</button>
+    </div>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
